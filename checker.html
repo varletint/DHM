@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checker.css" />
+    <title>ID checker</title>
+  </head>
+  <body>
+    <div class="item">
+      <img src="/image/hackImg1.jpeg" alt="" />
+      <div class="form">
+        <div>
+          <p>Verify your Transaction ID here</p>
+          <div class="form-id">
+            <input type="text" placeholder="Transaction ID" required />
+            <button class="btn">Check</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let btn = document.querySelector(".btn");
+
+      btn.addEventListener("click", () => {
+        window.location("/process.html");
+        // alert(1);
+      });
+    </script>
+  </body>
+</html>

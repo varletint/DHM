@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  color: #eee;
+  background-color: #010101;
+  font-family: monospace;
+}
+.item {
+  height: 100vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* height: 100%; */
+}
+
+.form {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  margin: auto;
+  width: 32rem;
+  /* height: 32rem; */
+  /* background: #fff; */
+}
+
+div {
+  width: 100%;
+}
+.form-id {
+  /* background: red; */
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  /* padding: 8px 10px; */
+  /* height: 40px;
+  background: ; */
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border: none;
+  padding: 15px 15px;
+  font-weight: 600;
+  /* color: #fff; */
+  background: #00b5fd;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background: #0376a3;
+}
+div p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+input {
+  width: 50%;
+  /* height: 38px; */
+  outline: none;
+  border: none;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  padding: 13px 15px;
+}
+
+input[type] {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+@media screen and (max-width: 698px) {
+  .form {
+    width: 24rem;
+  }
+}
