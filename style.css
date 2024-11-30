@@ -226,6 +226,7 @@ header .menu-links {
   position: absolute;
   inset: auto 10px 10px 10px;
   letter-spacing: 3px;
+  color: #fff;
 }
 
 @media screen and (max-width: 678px) {
