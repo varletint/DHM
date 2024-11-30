@@ -260,7 +260,7 @@ header .menu-links {
     font-size: 16px;
   }
   .address {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     gap: 10px;
